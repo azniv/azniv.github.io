@@ -1,8 +1,9 @@
+
 window.onload = function(){
     window.setInterval(
      function(){
          var d = new Date();
-         document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+         document.getElementById("clock").innerHTML = d;
      }
    , 1000);
  }
